@@ -1,0 +1,63 @@
+:root{
+    --bs-font-monospace:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: var(--bs-font-monospace);
+}
+#banersection{
+    height: 700px;
+    margin-bottom: 50px;
+}
+.cover{
+    background-image: url(./imgs/main-picture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.darck{
+    background-color: rgba(25, 135, 84, 0.3);
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.darck button{
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+}
+.section{
+    background-color: silver;
+    height: auto;
+    margin-bottom: 20px;
+}
+.section button{
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    margin-bottom: 4px;
+}
+.h2{
+    margin-bottom: 30px;
+}
+span img{
+    margin-top: -10px;
+    margin-right: 20px;
+}
+#info{
+    height: auto;
+}
+#info h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.hight{
+    height: 100%;
+} 
+#slidesection{
+    margin-bottom: 50px;
+}
+.soc{
+    font-size: 30px;
+}
